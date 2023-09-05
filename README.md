@@ -12,7 +12,7 @@
 
 ***
 
-## ssh-add key
+## ssh-add private-key
 
 ```
 $ ssh-add -k ~/.ssh/id_rsa_laptop
