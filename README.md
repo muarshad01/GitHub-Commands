@@ -11,3 +11,11 @@
 [Learn Git Branching](https://learngitbranching.js.org)
 
 ***
+
+## ssh-add key
+
+```
+$ ssh-add -k ~/.ssh/id_rsa_laptop
+```
+
+***
