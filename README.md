@@ -12,7 +12,14 @@
 
 ***
 
-## ssh-add private-key
+## ssh-keygen
+```
+$ ssh-keygen -t rsa
+```
+
+## Create And Add SSH Keys To Your GitHub Account On Windows 11 | Dev Tips
+
+![Create And Add SSH Keys To Your GitHub Account On Windows 11 | Dev Tips](https://www.youtube.com/watch?v=itU8KBuE8jk)
 
 ```
 $ ssh-add -k ~/.ssh/id_rsa_laptop
