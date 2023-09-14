@@ -13,8 +13,16 @@
 ***
 
 ## ssh-keygen
+
 ```
 $ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/user/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/user/.ssh/id_rsa.
+Your public key has been saved in /Users/user/.ssh/id_rsa.pub.
+...
 ```
 
 ## Create And Add SSH Keys To Your GitHub Account On Windows 11 | Dev Tips
