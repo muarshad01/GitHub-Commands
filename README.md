@@ -38,3 +38,15 @@ $ ssh-add -k ~/.ssh/id_rsa_laptop
 ```
 
 ***
+
+## Commands
+
+```
+$ git checkout -b <new-branch-name>                   # create a new-branch and switch to it
+$ git push --set-upstream origin <new-branch-name>
+
+$ git branch                                  # shows ALL branches
+$ git checkout <branch-name>                  # switch to <branch-name>
+$ git branch                                  # shows ALL branches
+$ git push --set-upstream origin chap16
+```
