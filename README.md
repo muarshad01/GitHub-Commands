@@ -21,6 +21,9 @@
 
 ```
 $ ssh-keygen -t rsa
+```
+
+```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/user/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
