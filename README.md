@@ -20,7 +20,7 @@
 ## ssh-keygen
 
 ```
-$ ssh-keygen -t rsa
+$ ssh-keygen
 ```
 
 ```
@@ -34,8 +34,11 @@ Your public key has been saved in /Users/user/.ssh/id_rsa.pub.
 ```
 
 ```
-$ explorer .ssh
+$ cd /Users/XYZ/.ssh/              # MacOS
+$ cd \Users\XYZ\.ssh/              # Windows
 ```
+* This folder will have a key-pair (id_rsa, id_rsa.pub)
+* Goto `https://github.com/user-id` -> Settings -> SSH and GCG Keys -> Add new SSH Key
 
 ```
 $ ssh-add -k ~/.ssh/id_rsa_laptop
