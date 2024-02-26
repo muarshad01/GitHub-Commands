@@ -60,3 +60,20 @@ $ git checkout <branch-name>                  # switch to <branch-name>
 $ git branch                                  # shows ALL branches
 $ git push --set-upstream origin chap16
 ```
+
+## Set `user.name` and `user.email`
+
+```
+vim ~/.gitconfig
+
+$ git config --global user.name "abc"
+$ git config --global user.email "xyz@pqr.com"
+
+$ git config --list
+
+$ git config --global user.name
+$ git config --global user.email
+
+$ git config --global --remove-section user
+$ cat ~/.gitconfig
+```
