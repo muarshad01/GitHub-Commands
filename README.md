@@ -77,3 +77,9 @@ $ git config --global user.email
 $ git config --global --remove-section user
 $ cat ~/.gitconfig
 ```
+
+## set-branches
+```
+$ git remote set-branches --add origin 't/tpil/coding-in-core/fy25q1/*'
+$ git fetch
+```
