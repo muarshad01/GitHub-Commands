@@ -83,3 +83,8 @@ $ cat ~/.gitconfig
 $ git remote set-branches --add origin 't/tpil/coding-in-core/fy25q1/*'
 $ git fetch
 ```
+***
+
+* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+***
