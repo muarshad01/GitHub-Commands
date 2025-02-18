@@ -88,3 +88,20 @@ $ git fetch
 * [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ***
+
+```
+$ mkdir tmp && cd tmp
+$ git clone git clone git@git.soma.salesforce.com:marshad/monitor-perfswat.git
+$ git remote -v
+-- origin	git@git.soma.salesforce.com:marshad/monitor-perfswat.git (fetch)
+-- origin	git@git.soma.salesforce.com:marshad/monitor-perfswat.git (push)
+$ git remote add perfswat git@git.soma.salesforce.com:perfeng-platform-core/monitor-perfswat.git
+-- origin	git@git.soma.salesforce.com:marshad/monitor-perfswat.git (fetch)
+-- origin	git@git.soma.salesforce.com:marshad/monitor-perfswat.git (push)
+-- perfswat	git@git.soma.salesforce.com:perfeng-platform-core/monitor-perfswat.git (fetch)
+-- perfswat	git@git.soma.salesforce.com:perfeng-platform-core/monitor-perfswat.git (push)
+$ git fetch perfswat
+$ git checkout api_huron
+$ git branch
+$ git push origin api_huron
+```
