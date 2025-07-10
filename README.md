@@ -41,6 +41,7 @@ $ cd \Users\XYZ\.ssh/              # Windows
 * Goto `https://github.com/user-id` -> `Settings` -> `SSH and GPG Keys` -> Add new SSH Key
 
 ```
+$ eval "$(ssh-agent -s)" 
 $ ssh-add -k ~/.ssh/id_rsa_laptop
 ```
 
