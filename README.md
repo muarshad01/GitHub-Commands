@@ -40,6 +40,9 @@ $ cd \Users\XYZ\.ssh/              # Windows
 * This folder will have a key-pair (id_rsa, id_rsa.pub)
 * Goto `https://github.com/user-id` -> `Settings` -> `SSH and GPG Keys` -> Add new SSH Key
 
+
+#### ssh-add key
+
 ```
 $ eval "$(ssh-agent -s)" 
 $ ssh-add -k ~/.ssh/id_rsa_laptop
