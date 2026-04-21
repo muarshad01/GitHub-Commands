@@ -101,7 +101,27 @@ $ ssh-add -k ~/.ssh/id_rsa_laptop
 ***
 
 
+## Error and Fix
+```
+marshad@marshad-ltml5wv Desktop % git clone git@github.com:muarshad01/GitHub-Commands.git
+Cloning into 'GitHub-Commands'...
+The authenticity of host 'github.com (100.64.1.8)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Host key verification failed.
+fatal: Could not read from remote repository.
 
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+#### Fix
+```
+$ ssh-keyscan github.com >> ~/.ssh/known_hosts
+```
+
+***
 
 ## Useful Links
 
