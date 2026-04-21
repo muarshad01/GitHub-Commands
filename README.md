@@ -1,7 +1,5 @@
 ## Install Git
 
-$ git --version
-
 #### 1 - Install Homebrew
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -21,6 +19,11 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 #### 2 - Install Git
 ```
 $ brew install git
+```
+
+#### 3 - Verify the installation
+```
+$ git --version
 ```
 
 ***
