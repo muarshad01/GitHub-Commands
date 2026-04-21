@@ -109,6 +109,11 @@ $ ssh-add -k ~/.ssh/id_rsa_laptop
 
 
 ## Error and Fix
+
+```
+$ git@github.com:muarshad01/GitHub-Commands.git
+```
+
 ```
 marshad@marshad-ltml5wv Desktop % git clone git@github.com:muarshad01/GitHub-Commands.git
 Cloning into 'GitHub-Commands'...
@@ -121,6 +126,7 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+marshad@marshad-ltml5wv Desktop %
 ```
 
 #### Fix
