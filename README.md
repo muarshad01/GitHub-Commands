@@ -27,6 +27,20 @@ $ brew install git-gui (Optional)
 $ git --version
 ```
 
+#### 4 - Open the Built-in Git GUI 
+Navigate to your Project: 
+```
+$ cd /path/to/your/repository
+```
+Launch the GUI:
+```
+$ git gui
+```
+Launch the History Browser: If you want to see a visual tree of your branches and commits, type:
+```
+$ gitk 
+```
+
 ***
 
 ## Post-Installation Setup
