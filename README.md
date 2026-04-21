@@ -1,3 +1,8 @@
+## Install Git
+
+$ git --version
+
+***
 
 ## Useful Links
 
