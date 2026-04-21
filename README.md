@@ -63,21 +63,7 @@ $ git config --list
 
 ***
 
-## Useful Links
-
-* [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
-* [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
-* [Git Cheat Sheet](https://amanchadha.com/projects/cheatsheets/Git_Cheatsheet_AmanChadha.pdf)
-
-***
-
-## Learn Git Branching
-
-[Learn Git Branching](https://learngitbranching.js.org)
-
-***
-
-# Create And Add SSH Keys To Your GitHub Account
+## Create And Add SSH Keys To Your GitHub Account
 
 [Create And Add SSH Keys To Your GitHub](https://www.youtube.com/watch?v=itU8KBuE8jk)
 
@@ -113,6 +99,27 @@ $ ssh-add -k ~/.ssh/id_rsa_laptop
 ```
 
 ***
+
+
+
+
+## Useful Links
+
+* [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+* [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+* [Git Cheat Sheet](https://amanchadha.com/projects/cheatsheets/Git_Cheatsheet_AmanChadha.pdf)
+
+***
+
+## Learn Git Branching
+
+[Learn Git Branching](https://learngitbranching.js.org)
+
+***
+
+
+
+
 
 ## Commands
 
