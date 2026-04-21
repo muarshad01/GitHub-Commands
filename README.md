@@ -73,23 +73,10 @@ $ git config --list
 $ ssh-keygen - t rsa
 ```
 
+#### Copy and Add to GitHub Account
 ```
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/user/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /Users/user/.ssh/id_rsa.
-Your public key has been saved in /Users/user/.ssh/id_rsa.pub.
-...
+$ pbcopy < ~/.ssh/id_rsa.pub
 ```
-
-```
-$ cd /Users/XYZ/.ssh/              # MacOS
-$ cd \Users\XYZ\.ssh/              # Windows
-```
-* This folder will have a key-pair (id_rsa, id_rsa.pub)
-* Goto `https://github.com/user-id` -> `Settings` -> `SSH and GPG Keys` -> Add new SSH Key
-
 
 #### ssh-add key
 
