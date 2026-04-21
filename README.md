@@ -1,4 +1,4 @@
-## Install Git
+## Install Git on macOS
 
 #### 1 - Install Homebrew
 ```
