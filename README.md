@@ -64,8 +64,33 @@ $ git config --list
 ***
 
 ## Create And Add SSH Keys To Your GitHub Account
+```bash
+$ ssh-keygen -t rsa
 ```
-$ ssh-keygen - t rsa
+
+```
+marshad@marshad-ltml5wv ~ % ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/marshad/.ssh/id_rsa): 
+Enter passphrase for "/Users/marshad/.ssh/id_rsa" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/marshad/.ssh/id_rsa
+Your public key has been saved in /Users/marshad/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:ba9OHFau8C8wPXFp2DxF9RBaEGXTky1O3M2tf/pEyYk marshad@marshad-ltml5wv.internal.salesforce.com
+The key's randomart image is:
++---[RSA 3072]----+
+|            o*O**|
+|             +==O|
+|           +o= oo|
+|         .ooB = o|
+|        S.=+.E =.|
+|        o*o+   .o|
+|         o=..  .o|
+|         ..o  .. |
+|         .o..  ..|
++----[SHA256]-----+
+marshad@marshad-ltml5wv ~ %
 ```
 
 #### Copy and Add to GitHub Account
