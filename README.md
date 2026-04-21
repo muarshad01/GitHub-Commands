@@ -28,6 +28,26 @@ $ git --version
 
 ***
 
+## Post-Installation Setup
+After installing Git, you should configure your identity so your commits are correctly attributed: 
+
+#### Set your name:
+```
+$ git config --global user.name "Your Name"
+```
+
+#### Set your email:
+```
+$ git config --global user.email "your.email@example.com"
+```
+
+#### Check your configuration:
+```
+$ git config --list
+```
+
+***
+
 ## Useful Links
 
 * [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
