@@ -19,6 +19,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 #### 2 - Install Git
 ```
 $ brew install git
+$ brew install git-gui (Optional)
 ```
 
 #### 3 - Verify the installation
