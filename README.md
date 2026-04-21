@@ -135,25 +135,10 @@ $ ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 ***
 
-## Useful Links
-
-* [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
-* [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+## Useful Commands
 * [Git Cheat Sheet](https://amanchadha.com/projects/cheatsheets/Git_Cheatsheet_AmanChadha.pdf)
-
-***
-
-## Learn Git Branching
-
-[Learn Git Branching](https://learngitbranching.js.org)
-
-***
-
-
-
-
-
-## Commands
+* [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ```
 $ git remove
@@ -168,31 +153,11 @@ $ git branch                                  # shows ALL branches
 $ git push --set-upstream origin chap16
 ```
 
-## Set `user.name` and `user.email`
-
-```
-vim ~/.gitconfig
-
-$ git config --global user.name "abc"
-$ git config --global user.email "xyz@pqr.com"
-
-$ git config --list
-
-$ git config --global user.name
-$ git config --global user.email
-
-$ git config --global --remove-section user
-$ cat ~/.gitconfig
-```
-
 ## set-branches
 ```
 $ git remote set-branches --add origin 't/tpil/coding-in-core/fy25q1/*'
 $ git fetch
 ```
-***
-
-* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ***
 
@@ -212,3 +177,16 @@ $ git checkout api_huron
 $ git branch
 $ git push origin api_huron
 ```
+
+***
+
+## Course
+* [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+
+***
+
+## Learn Git Branching
+
+[Learn Git Branching](https://learngitbranching.js.org)
+
+***
