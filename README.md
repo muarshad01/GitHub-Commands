@@ -64,11 +64,6 @@ $ git config --list
 ***
 
 ## Create And Add SSH Keys To Your GitHub Account
-
-[Create And Add SSH Keys To Your GitHub](https://www.youtube.com/watch?v=itU8KBuE8jk)
-
-## ssh-keygen
-
 ```
 $ ssh-keygen - t rsa
 ```
