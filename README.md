@@ -98,11 +98,10 @@ marshad@marshad-ltml5wv ~ %
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-#### ssh-add key
-
+#### ssh-add privagte key
 ```
-$ eval "$(ssh-agent -s)" 
-$ ssh-add -k ~/.ssh/id_rsa_laptop
+$ eval $(ssh-agent -s)
+$ ssh-add -k ~/.ssh/id_rsa
 ```
 
 ***
