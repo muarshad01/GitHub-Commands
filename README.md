@@ -70,7 +70,7 @@ $ git config --list
 ## ssh-keygen
 
 ```
-$ ssh-keygen
+$ ssh-keygen - t rsa
 ```
 
 ```
